@@ -18,8 +18,7 @@ import java.util.List;
 
 @Controller
 public class MController {
-    @Value("${file-upload}")
-    private String fileUpload;
+
 
     private final MusicService service = new MusicService();
 
