@@ -63,7 +63,7 @@ public class AppConfig implements WebMvcConfigurer, ApplicationContextAware {
 
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
-        registry.addResourceHandler("/res/**")
+        registry.addResourceHandler("/file/**")
                 .addResourceLocations("file:" + fileUpload);
 
     }
